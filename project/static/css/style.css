@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(to right, #8aed5d, #cce338);
+    color: #fff;
+}
+/* Header styles */
+header {
+    color: white; 
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+header h1 {
+    font-size: 40px; 
+    font-weight: bold;
+    letter-spacing: 2px; 
+    text-transform: uppercase; 
+    margin: 0;
+
+}
+/* Description section styles */
+#description {
+    background-color: rgba(255, 255, 255, 0.8); 
+    color: #333; 
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 80%; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+#description p {
+    font-size: 20px; 
+    line-height: 1.6; 
+    margin: 0;
+    color: #444; 
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #dcacac;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+/* Heading styles */
+.container h1 {
+    text-align: center;
+    font-size: 24px;
+    color: #557cc4;
+    margin-bottom: 20px;
+}
+
+/* Form styles */
+form {
+    display:flex;
+    flex-direction: column;
+    gap: 50px;
+}
+
+/* Input and select styles */
+form input[type="number"],
+form select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+}
+
+form input[type="number"]:focus,
+form select:focus {
+    border-color: #2575fc;
+    outline: none;
+    box-shadow: 0 0 5px rgba(37, 117, 252, 0.5);
+}
+
+/* Label styles */
+form label {
+    font-weight: bold;
+    color: #444;
+}
+
+/* Button styles */
+form button[type="submit"] {
+    background-color: #2575fc;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button[type="submit"]:hover {
+    background-color: #1a5fb5;
+}
+
+/* Result display */
+#result {
+    margin-top: 50px;
+    font-size: 20px;
+    text-align: center;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    color: #444;
+}
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+    /* Reduce padding and font size on smaller screens */
+    .container {
+        max-width: 90%;
+        padding: 20px;
+    }
+    
+    header h1 {
+        font-size: 32px; 
+    }
+
+    #description p {
+        font-size: 18px; 
+    }
+
+    form {
+        gap: 20px; 
+    }
+
+    form input[type="number"],
+    form select {
+        padding: 10px; 
+    }
+
+    form button[type="submit"] {
+        padding: 10px 15px; 
+    }
+
+    /* Adjust result box */
+    #result {
+        padding: 20px; 
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further adjustments for very small screens */
+    header h1 {
+        font-size: 24px; 
+    }
+
+    #description p {
+        font-size: 16px; 
+    }
+
+    .container {
+        padding: 15px; 
+    }
+
+    form {
+        gap: 15px; /* Reduce form gap */
+    }
+
+    form input[type="number"],
+    form select {
+        padding: 8px; 
+    }
+
+    form button[type="submit"] {
+        padding: 8px 12px;
+    }
+
+    #result {
+        padding: 15px; 
+    }
+}
