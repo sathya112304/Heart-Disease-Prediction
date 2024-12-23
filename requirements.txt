@@ -1,48 +1,6 @@
-# General packages
-numpy==1.23.5
-pandas==1.5.3
-scikit-learn==1.2.0
-matplotlib==3.6.2
-seaborn==0.12.2
-
-# Machine learning frameworks
-tensorflow==2.11.0
-# or
-# torch==1.13.0
-# torchvision==0.14.0
-
-# Data manipulation and analysis
-scipy==1.9.3
-statsmodels==0.13.5
-
-# For Jupyter notebooks (if applicable)
-jupyter==1.0.0
-
-# For data visualization
-plotly==5.10.0
-
-# For model deployment
-flask==2.2.2
-# or
-fastapi==0.95.0
-
-# For logging and monitoring
-mlflow==2.2.0
-
-# For hyperparameter tuning
-optuna==2.10.0
-
-# For handling large datasets
-dask==2022.10.0
-
-# For working with images
-Pillow==9.3.0
-
-# For working with natural language processing
-nltk==3.7
-spacy==3.4.4
-# and the language model
-# python -m spacy download en_core_web_sm
-
-# For reproducibility
-pip==22.3.1
+tensorflow==2.12.1  # Compatible with Python 3.11
+numpy==1.24.3       # Compatible with Python 3.11
+pandas==1.5.3       # Compatible with Python 3.11
+scikit-learn==1.2.0 # Compatible with Python 3.11
+matplotlib==3.6.2   # Compatible with Python 3.11
+seaborn==0.12.2     # Compatible with Python 3.11
