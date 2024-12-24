@@ -4,3 +4,4 @@ pandas==1.5.3       # Compatible with Python 3.11
 scikit-learn==1.2.0 # Compatible with Python 3.11
 matplotlib==3.6.2   # Compatible with Python 3.11
 seaborn==0.12.2     # Compatible with Python 3.11
+gunicorn-23.0.0
